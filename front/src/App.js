@@ -3,7 +3,7 @@ import { io } from 'socket.io-client';
 import { useState, useEffect } from 'react';
 import { LiMensaje, UlMensajes } from './ui-components';
 
-const socket = io('http://localhost:3000');
+const socket = io('https://code-pills-react-chat.vercel.app/');
 
 function App() {
 
